@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43B92C64CC658321130377B6 /* Pods_Viaduct_For_Driver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A227B52E69FC929BD38EDC /* Pods_Viaduct_For_Driver.framework */; };
+		8D5C56771F4F0CC500F5E4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C56761F4F0CC500F5E4A4 /* AppDelegate.swift */; };
+		8D5C567C1F4F0CC500F5E4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5C567A1F4F0CC500F5E4A4 /* Main.storyboard */; };
+		8D5C567E1F4F0CC500F5E4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5C567D1F4F0CC500F5E4A4 /* Assets.xcassets */; };
+		8D5C56811F4F0CC500F5E4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5C567F1F4F0CC500F5E4A4 /* LaunchScreen.storyboard */; };
+		8D5C56911F4F1DF700F5E4A4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C56901F4F1DF700F5E4A4 /* SignInViewController.swift */; };
+		8D5C56981F4F737E00F5E4A4 /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C56971F4F737E00F5E4A4 /* AuthProvider.swift */; };
+		8D5C569F1F50B46700F5E4A4 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C569E1F50B46700F5E4A4 /* DriverViewController.swift */; };
+		8D600E1A1F572E85008072E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D600E191F572E85008072E1 /* GoogleService-Info.plist */; };
+		8D600E1E1F5870E9008072E1 /* CabHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D600E1D1F5870E9008072E1 /* CabHandler.swift */; };
+		8DF915D71F564A7000640F15 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF915D61F564A7000640F15 /* Constants.swift */; };
+		8DF915D91F564ACE00640F15 /* DatabaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF915D81F564ACE00640F15 /* DatabaseProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89A227B52E69FC929BD38EDC /* Pods_Viaduct_For_Driver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viaduct_For_Driver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5C56731F4F0CC500F5E4A4 /* Viaduct For Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viaduct For Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5C56761F4F0CC500F5E4A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D5C567B1F4F0CC500F5E4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D5C567D1F4F0CC500F5E4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D5C56801F4F0CC500F5E4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D5C56821F4F0CC500F5E4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5C56901F4F1DF700F5E4A4 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		8D5C56971F4F737E00F5E4A4 /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		8D5C569E1F50B46700F5E4A4 /* DriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		8D600E191F572E85008072E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D600E1D1F5870E9008072E1 /* CabHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabHandler.swift; sourceTree = "<group>"; };
+		8DF915D61F564A7000640F15 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8DF915D81F564ACE00640F15 /* DatabaseProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseProvider.swift; path = ../DatabaseProvider.swift; sourceTree = "<group>"; };
+		990ABBF93645A86AA8D5DE4E /* Pods-Viaduct For Driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viaduct For Driver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viaduct For Driver/Pods-Viaduct For Driver.debug.xcconfig"; sourceTree = "<group>"; };
+		BCADBDFF89C0742C9681BDBC /* Pods-Viaduct For Driver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viaduct For Driver.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viaduct For Driver/Pods-Viaduct For Driver.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5C56701F4F0CC500F5E4A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B92C64CC658321130377B6 /* Pods_Viaduct_For_Driver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C268EA5E803EEDB93903134 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89A227B52E69FC929BD38EDC /* Pods_Viaduct_For_Driver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D5C566A1F4F0CC500F5E4A4 = {
+			isa = PBXGroup;
+			children = (
+				8D5C56751F4F0CC500F5E4A4 /* Viaduct For Driver */,
+				8D5C56741F4F0CC500F5E4A4 /* Products */,
+				DC4484C6A42A048392B52C1F /* Pods */,
+				8C268EA5E803EEDB93903134 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D5C56741F4F0CC500F5E4A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5C56731F4F0CC500F5E4A4 /* Viaduct For Driver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D5C56751F4F0CC500F5E4A4 /* Viaduct For Driver */ = {
+			isa = PBXGroup;
+			children = (
+				8D600E191F572E85008072E1 /* GoogleService-Info.plist */,
+				8D5C56961F4F736800F5E4A4 /* Plugins */,
+				8D5C568F1F4F1DCD00F5E4A4 /* Model */,
+				8D5C568E1F4F1DC500F5E4A4 /* View */,
+				8D5C568D1F4F1DBF00F5E4A4 /* Controller */,
+				8D5C56761F4F0CC500F5E4A4 /* AppDelegate.swift */,
+				8D5C567A1F4F0CC500F5E4A4 /* Main.storyboard */,
+				8D5C567D1F4F0CC500F5E4A4 /* Assets.xcassets */,
+				8D5C567F1F4F0CC500F5E4A4 /* LaunchScreen.storyboard */,
+				8D5C56821F4F0CC500F5E4A4 /* Info.plist */,
+			);
+			path = "Viaduct For Driver";
+			sourceTree = "<group>";
+		};
+		8D5C568D1F4F1DBF00F5E4A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D5C56901F4F1DF700F5E4A4 /* SignInViewController.swift */,
+				8D5C569E1F50B46700F5E4A4 /* DriverViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8D5C568E1F4F1DC500F5E4A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8D5C568F1F4F1DCD00F5E4A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DF915D81F564ACE00640F15 /* DatabaseProvider.swift */,
+				8DF915D61F564A7000640F15 /* Constants.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8D5C56961F4F736800F5E4A4 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				8D5C56971F4F737E00F5E4A4 /* AuthProvider.swift */,
+				8D600E1D1F5870E9008072E1 /* CabHandler.swift */,
+			);
+			name = Plugins;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DC4484C6A42A048392B52C1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				990ABBF93645A86AA8D5DE4E /* Pods-Viaduct For Driver.debug.xcconfig */,
+				BCADBDFF89C0742C9681BDBC /* Pods-Viaduct For Driver.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5C56721F4F0CC500F5E4A4 /* Viaduct For Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5C56851F4F0CC500F5E4A4 /* Build configuration list for PBXNativeTarget "Viaduct For Driver" */;
+			buildPhases = (
+				C43B5C7B5CE66E09DCE0522A /* [CP] Check Pods Manifest.lock */,
+				8D5C566F1F4F0CC500F5E4A4 /* Sources */,
+				8D5C56701F4F0CC500F5E4A4 /* Frameworks */,
+				8D5C56711F4F0CC500F5E4A4 /* Resources */,
+				AD4DB2F9BA8E45197BEFE43F /* [CP] Embed Pods Frameworks */,
+				18641317E85819DC167E5035 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Viaduct For Driver";
+			productName = "Viaduct For Driver";
+			productReference = 8D5C56731F4F0CC500F5E4A4 /* Viaduct For Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D5C566B1F4F0CC500F5E4A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "James-Patrick Ngoupayou";
+				TargetAttributes = {
+					8D5C56721F4F0CC500F5E4A4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HZE742K5MG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8D5C566E1F4F0CC500F5E4A4 /* Build configuration list for PBXProject "Viaduct For Driver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D5C566A1F4F0CC500F5E4A4;
+			productRefGroup = 8D5C56741F4F0CC500F5E4A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5C56721F4F0CC500F5E4A4 /* Viaduct For Driver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5C56711F4F0CC500F5E4A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5C56811F4F0CC500F5E4A4 /* LaunchScreen.storyboard in Resources */,
+				8D600E1A1F572E85008072E1 /* GoogleService-Info.plist in Resources */,
+				8D5C567E1F4F0CC500F5E4A4 /* Assets.xcassets in Resources */,
+				8D5C567C1F4F0CC500F5E4A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18641317E85819DC167E5035 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viaduct For Driver/Pods-Viaduct For Driver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4DB2F9BA8E45197BEFE43F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Viaduct For Driver/Pods-Viaduct For Driver-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viaduct For Driver/Pods-Viaduct For Driver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C43B5C7B5CE66E09DCE0522A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viaduct For Driver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5C566F1F4F0CC500F5E4A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5C569F1F50B46700F5E4A4 /* DriverViewController.swift in Sources */,
+				8D5C56981F4F737E00F5E4A4 /* AuthProvider.swift in Sources */,
+				8DF915D91F564ACE00640F15 /* DatabaseProvider.swift in Sources */,
+				8D5C56911F4F1DF700F5E4A4 /* SignInViewController.swift in Sources */,
+				8D5C56771F4F0CC500F5E4A4 /* AppDelegate.swift in Sources */,
+				8D600E1E1F5870E9008072E1 /* CabHandler.swift in Sources */,
+				8DF915D71F564A7000640F15 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D5C567A1F4F0CC500F5E4A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D5C567B1F4F0CC500F5E4A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D5C567F1F4F0CC500F5E4A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D5C56801F4F0CC500F5E4A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D5C56831F4F0CC500F5E4A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D5C56841F4F0CC500F5E4A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D5C56861F4F0CC500F5E4A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990ABBF93645A86AA8D5DE4E /* Pods-Viaduct For Driver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HZE742K5MG;
+				INFOPLIST_FILE = "Viaduct For Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Viaduct-For-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8D5C56871F4F0CC500F5E4A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCADBDFF89C0742C9681BDBC /* Pods-Viaduct For Driver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HZE742K5MG;
+				INFOPLIST_FILE = "Viaduct For Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Viaduct-For-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D5C566E1F4F0CC500F5E4A4 /* Build configuration list for PBXProject "Viaduct For Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5C56831F4F0CC500F5E4A4 /* Debug */,
+				8D5C56841F4F0CC500F5E4A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5C56851F4F0CC500F5E4A4 /* Build configuration list for PBXNativeTarget "Viaduct For Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5C56861F4F0CC500F5E4A4 /* Debug */,
+				8D5C56871F4F0CC500F5E4A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D5C566B1F4F0CC500F5E4A4 /* Project object */;
+}

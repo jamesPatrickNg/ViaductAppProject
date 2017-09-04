@@ -1,0 +1,6 @@
+framework module Pods_Viaduct_For_Rider {
+  umbrella header "Pods-Viaduct For Rider-umbrella.h"
+
+  export *
+  module * { export * }
+}
